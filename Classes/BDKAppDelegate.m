@@ -69,7 +69,7 @@
     if (_viewDeckController != nil) return _viewDeckController;
     
     // Override point for customization after application launch.
-    BDKErrorGroupListController *recent = [[BDKErrorGroupListController alloc] init];
+    BDKErrorGroupListController *recent = [BDKErrorGroupListController controller];
     recent.title = @"Recent";
     UINavigationController *recentNav = [[UINavigationController alloc] initWithRootViewController:recent];
     

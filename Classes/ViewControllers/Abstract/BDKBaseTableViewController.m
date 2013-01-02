@@ -42,7 +42,6 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    self.tableView.frame = self.view.bounds;
 }
 
 - (void)didReceiveMemoryWarning {

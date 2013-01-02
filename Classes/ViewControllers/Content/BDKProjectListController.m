@@ -2,6 +2,9 @@
 #import "BDKErrorGroupListController.h"
 #import "AirbrakeAPIClient.h"
 
+#import "UIViewController+Airbrake.h"
+#import "UITableViewCell+Awesome.h"
+
 @interface BDKProjectListController ()
 
 @property (strong, nonatomic) NSMutableArray *projects;
@@ -12,6 +15,10 @@
 @end
 
 @implementation BDKProjectListController
+
++ (id)controller {
+    return [[self alloc] init];
+}
 
 - (id)init {
     if ((self = [super initWithStyle:UITableViewStylePlain])) {
@@ -100,7 +107,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     AirbrakeProject *project = [self airbrakeProjectForIndexPath:indexPath];
-    BDKErrorGroupListController *errors = [[BDKErrorGroupListController alloc] initWithProject:project];
+    BDKErrorGroupListController *errors = [BDKErrorGroupListController controllerWithProject:project];
     errors.title = project.name;
     [self.navigationController pushViewController:errors animated:YES];
 }

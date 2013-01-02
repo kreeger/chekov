@@ -21,6 +21,10 @@
 		C31DBE631693B640003D4B72 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C31DBE5B1693B640003D4B72 /* Icon-Small@2x.png */; };
 		C31DBE641693B640003D4B72 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = C31DBE5C1693B640003D4B72 /* iTunesArtwork.png */; };
 		C31DBE651693B640003D4B72 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C31DBE5D1693B640003D4B72 /* iTunesArtwork@2x.png */; };
+		C31DBE681693B97E003D4B72 /* UINavigationController+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = C31DBE671693B97E003D4B72 /* UINavigationController+Awesome.m */; };
+		C31DBE6B1693BA6F003D4B72 /* BDKNoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31DBE6A1693BA6F003D4B72 /* BDKNoticeViewController.m */; };
+		C31DBE701693BAA8003D4B72 /* BDKErrorGroupListController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31DBE6D1693BAA8003D4B72 /* BDKErrorGroupListController.m */; };
+		C31DBE711693BAA8003D4B72 /* BDKProjectListController.m in Sources */ = {isa = PBXBuildFile; fileRef = C31DBE6F1693BAA8003D4B72 /* BDKProjectListController.m */; };
 		C3C2EDC61693B05000C4B14F /* AirbrakeAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C2ED821693B05000C4B14F /* AirbrakeAPIClient.m */; };
 		C3C2EDC71693B05000C4B14F /* AirbrakeAPIParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C2ED841693B05000C4B14F /* AirbrakeAPIParser.m */; };
 		C3C2EDC81693B05000C4B14F /* AirbrakeGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C2ED871693B05000C4B14F /* AirbrakeGroup.m */; };
@@ -41,9 +45,7 @@
 		C3C2EDD71693B05000C4B14F /* BDKLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C2EDAA1693B05000C4B14F /* BDKLogFormatter.m */; };
 		C3C2EDD81693B05000C4B14F /* BDKBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C2EDAF1693B05000C4B14F /* BDKBaseTableViewController.m */; };
 		C3C2EDD91693B05000C4B14F /* BDKAirbrakeLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C2EDB21693B05000C4B14F /* BDKAirbrakeLoginController.m */; };
-		C3C2EDDA1693B05000C4B14F /* BDKErrorGroupDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C2EDB51693B05000C4B14F /* BDKErrorGroupDetailViewController.m */; };
-		C3C2EDDB1693B05000C4B14F /* BDKErrorGroupListController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C2EDB81693B05000C4B14F /* BDKErrorGroupListController.m */; };
-		C3C2EDDC1693B05000C4B14F /* BDKProjectListController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C2EDBA1693B05000C4B14F /* BDKProjectListController.m */; };
+		C3C2EDDA1693B05000C4B14F /* BDKErrorGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C2EDB51693B05000C4B14F /* BDKErrorGroupViewController.m */; };
 		C3C2EDDD1693B05000C4B14F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C2EDBD1693B05000C4B14F /* Default-568h@2x.png */; };
 		C3C2EDDE1693B05000C4B14F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C2EDBE1693B05000C4B14F /* Default.png */; };
 		C3C2EDDF1693B05000C4B14F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3C2EDBF1693B05000C4B14F /* Default@2x.png */; };
@@ -70,6 +72,14 @@
 		C31DBE5B1693B640003D4B72 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
 		C31DBE5C1693B640003D4B72 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
 		C31DBE5D1693B640003D4B72 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		C31DBE661693B97E003D4B72 /* UINavigationController+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Awesome.h"; sourceTree = "<group>"; };
+		C31DBE671693B97E003D4B72 /* UINavigationController+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Awesome.m"; sourceTree = "<group>"; };
+		C31DBE691693BA6F003D4B72 /* BDKNoticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDKNoticeViewController.h; sourceTree = "<group>"; };
+		C31DBE6A1693BA6F003D4B72 /* BDKNoticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDKNoticeViewController.m; sourceTree = "<group>"; };
+		C31DBE6C1693BAA8003D4B72 /* BDKErrorGroupListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDKErrorGroupListController.h; sourceTree = "<group>"; };
+		C31DBE6D1693BAA8003D4B72 /* BDKErrorGroupListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDKErrorGroupListController.m; sourceTree = "<group>"; };
+		C31DBE6E1693BAA8003D4B72 /* BDKProjectListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDKProjectListController.h; sourceTree = "<group>"; };
+		C31DBE6F1693BAA8003D4B72 /* BDKProjectListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDKProjectListController.m; sourceTree = "<group>"; };
 		C3C2ED811693B05000C4B14F /* AirbrakeAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirbrakeAPIClient.h; sourceTree = "<group>"; };
 		C3C2ED821693B05000C4B14F /* AirbrakeAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirbrakeAPIClient.m; sourceTree = "<group>"; };
 		C3C2ED831693B05000C4B14F /* AirbrakeAPIParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirbrakeAPIParser.h; sourceTree = "<group>"; };
@@ -113,12 +123,8 @@
 		C3C2EDAF1693B05000C4B14F /* BDKBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDKBaseTableViewController.m; sourceTree = "<group>"; };
 		C3C2EDB11693B05000C4B14F /* BDKAirbrakeLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDKAirbrakeLoginController.h; sourceTree = "<group>"; };
 		C3C2EDB21693B05000C4B14F /* BDKAirbrakeLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDKAirbrakeLoginController.m; sourceTree = "<group>"; };
-		C3C2EDB41693B05000C4B14F /* BDKErrorGroupDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDKErrorGroupDetailViewController.h; sourceTree = "<group>"; };
-		C3C2EDB51693B05000C4B14F /* BDKErrorGroupDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDKErrorGroupDetailViewController.m; sourceTree = "<group>"; };
-		C3C2EDB71693B05000C4B14F /* BDKErrorGroupListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDKErrorGroupListController.h; sourceTree = "<group>"; };
-		C3C2EDB81693B05000C4B14F /* BDKErrorGroupListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDKErrorGroupListController.m; sourceTree = "<group>"; };
-		C3C2EDB91693B05000C4B14F /* BDKProjectListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDKProjectListController.h; sourceTree = "<group>"; };
-		C3C2EDBA1693B05000C4B14F /* BDKProjectListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDKProjectListController.m; sourceTree = "<group>"; };
+		C3C2EDB41693B05000C4B14F /* BDKErrorGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDKErrorGroupViewController.h; sourceTree = "<group>"; };
+		C3C2EDB51693B05000C4B14F /* BDKErrorGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDKErrorGroupViewController.m; sourceTree = "<group>"; };
 		C3C2EDBD1693B05000C4B14F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C3C2EDBE1693B05000C4B14F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C3C2EDBF1693B05000C4B14F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -240,6 +246,8 @@
 				C3C2ED951693B05000C4B14F /* NSObject+Awesome.m */,
 				C3C2ED961693B05000C4B14F /* NSString+Awesome.h */,
 				C3C2ED971693B05000C4B14F /* NSString+Awesome.m */,
+				C31DBE661693B97E003D4B72 /* UINavigationController+Awesome.h */,
+				C31DBE671693B97E003D4B72 /* UINavigationController+Awesome.m */,
 				C3C2ED981693B05000C4B14F /* UITableViewCell+Awesome.h */,
 				C3C2ED991693B05000C4B14F /* UITableViewCell+Awesome.m */,
 				C3C2ED9A1693B05000C4B14F /* UIViewController+Airbrake.h */,
@@ -280,7 +288,6 @@
 				C3C2EDAD1693B05000C4B14F /* Abstract */,
 				C3C2EDB01693B05000C4B14F /* Auth */,
 				C3C2EDB31693B05000C4B14F /* Content */,
-				C3C2EDB61693B05000C4B14F /* Lists */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -306,21 +313,16 @@
 		C3C2EDB31693B05000C4B14F /* Content */ = {
 			isa = PBXGroup;
 			children = (
-				C3C2EDB41693B05000C4B14F /* BDKErrorGroupDetailViewController.h */,
-				C3C2EDB51693B05000C4B14F /* BDKErrorGroupDetailViewController.m */,
+				C31DBE6C1693BAA8003D4B72 /* BDKErrorGroupListController.h */,
+				C31DBE6D1693BAA8003D4B72 /* BDKErrorGroupListController.m */,
+				C3C2EDB41693B05000C4B14F /* BDKErrorGroupViewController.h */,
+				C3C2EDB51693B05000C4B14F /* BDKErrorGroupViewController.m */,
+				C31DBE691693BA6F003D4B72 /* BDKNoticeViewController.h */,
+				C31DBE6A1693BA6F003D4B72 /* BDKNoticeViewController.m */,
+				C31DBE6E1693BAA8003D4B72 /* BDKProjectListController.h */,
+				C31DBE6F1693BAA8003D4B72 /* BDKProjectListController.m */,
 			);
 			path = Content;
-			sourceTree = "<group>";
-		};
-		C3C2EDB61693B05000C4B14F /* Lists */ = {
-			isa = PBXGroup;
-			children = (
-				C3C2EDB71693B05000C4B14F /* BDKErrorGroupListController.h */,
-				C3C2EDB81693B05000C4B14F /* BDKErrorGroupListController.m */,
-				C3C2EDB91693B05000C4B14F /* BDKProjectListController.h */,
-				C3C2EDBA1693B05000C4B14F /* BDKProjectListController.m */,
-			);
-			path = Lists;
 			sourceTree = "<group>";
 		};
 		C3C2EDBB1693B05000C4B14F /* Views */ = {
@@ -482,9 +484,11 @@
 				C3C2EDD71693B05000C4B14F /* BDKLogFormatter.m in Sources */,
 				C3C2EDD81693B05000C4B14F /* BDKBaseTableViewController.m in Sources */,
 				C3C2EDD91693B05000C4B14F /* BDKAirbrakeLoginController.m in Sources */,
-				C3C2EDDA1693B05000C4B14F /* BDKErrorGroupDetailViewController.m in Sources */,
-				C3C2EDDB1693B05000C4B14F /* BDKErrorGroupListController.m in Sources */,
-				C3C2EDDC1693B05000C4B14F /* BDKProjectListController.m in Sources */,
+				C3C2EDDA1693B05000C4B14F /* BDKErrorGroupViewController.m in Sources */,
+				C31DBE681693B97E003D4B72 /* UINavigationController+Awesome.m in Sources */,
+				C31DBE6B1693BA6F003D4B72 /* BDKNoticeViewController.m in Sources */,
+				C31DBE701693BAA8003D4B72 /* BDKErrorGroupListController.m in Sources */,
+				C31DBE711693BAA8003D4B72 /* BDKProjectListController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

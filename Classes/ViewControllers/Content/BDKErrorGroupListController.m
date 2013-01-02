@@ -1,7 +1,10 @@
 #import "BDKErrorGroupListController.h"
-#import "BDKErrorGroupDetailViewController.h"
+#import "BDKErrorGroupViewController.h"
 #import "BDKErrorGroupCell.h"
 #import "AirbrakeAPIClient.h"
+
+#import "UIViewController+Airbrake.h"
+#import "UITableViewCell+Awesome.h"
 
 @interface BDKErrorGroupListController ()
 
@@ -15,6 +18,14 @@
 @end
 
 @implementation BDKErrorGroupListController
+
++ (id)controller {
+    return [[self alloc] init];
+}
+
++ (id)controllerWithProject:(AirbrakeProject *)project {
+    return [[self alloc] initWithProject:project];
+}
 
 - (id)init {
     if ((self = [super initWithStyle:UITableViewStylePlain])) {
@@ -150,7 +161,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     AirbrakeGroup *group = [self airbrakeGroupForIndexPath:indexPath];
-    BDKErrorGroupDetailViewController *view = [[BDKErrorGroupDetailViewController alloc] initWithErrorGroup:group];
+    BDKErrorGroupViewController *view = [BDKErrorGroupViewController controllerWithErrorGroup:group];
     view.title = group.errorClass;
     [self.navigationController pushViewController:view animated:YES];
 }

@@ -1,5 +1,7 @@
 #import "BDKAirbrakeLoginController.h"
 
+#import "UIViewController+Airbrake.h"
+
 enum ROWS {
     ACCOUNT_ROW = 0,
     TOKEN_ROW,

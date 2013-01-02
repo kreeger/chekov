@@ -3,4 +3,6 @@
 
 @interface BDKProjectListController : BDKBaseTableViewController
 
++ (id)controller;
+
 @end
