@@ -1,0 +1,35 @@
+//
+// Prefix header for all source files of the 'Croak' target in the 'Croak' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+
+// Third-party frameworks.
+#import <CocoaLumberjack/DDLog.h>
+#import "BDKLogFunctions.h"
+static const int ddLogLevel = LOG_LEVEL_INFO | LOG_FLAG_CUSTOM;
+
+#import <ViewDeck/IIViewDeckController.h>
+
+// Third-party categories.
+#import <SVPullToRefresh/UIScrollView+SVInfiniteScrolling.h>
+#import <SVPullToRefresh/UIScrollView+SVPullToRefresh.h>
+#import <MRCEnumerable/NSArray+Enumerable.h>
+#import <MTDates/NSDate+MTDates.h>
+
+// First-party categories and things
+#import "BDKCategories.h"
+#import "BDKLogFunctions.h"
+#import "BDKConstants.h"
+
+#endif
