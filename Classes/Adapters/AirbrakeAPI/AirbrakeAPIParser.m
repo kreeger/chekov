@@ -68,7 +68,7 @@ typedef AirbrakeModel *(^ElementParseBlock)(TBXMLElement *element);
 
 - (AirbrakeNotice *)parseNotice:(NSData *)data {
     TBXMLElement *element = [self getRootElementFromData:data];
-    NSDictionary *dict = [self parseErrorGroupElement:element];
+    NSDictionary *dict = [self parseNoticeElement:element];
     return [AirbrakeNotice modelWithDictionary:dict];
 }
 

@@ -95,8 +95,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     AirbrakeNotice *notice = [self airbrakeNoticeForIndexPath:indexPath];
-    [self.apiClient notice:notice.identifier forGroup:notice.groupId success:^(NSDictionary *result) {
-        DDLogData(@"%@", result);
+    [self.apiClient notice:notice.identifier forGroup:notice.groupId success:^(AirbrakeNotice *notice) {
+        DDLogData(@"%@", notice);
     } failure:^(NSError *error, NSUInteger responseCode) {
         DDLogError(@"Encountered error %i.", responseCode);
         // Fail

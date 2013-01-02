@@ -115,12 +115,12 @@
     }];
 }
 
-- (void)notice:(NSNumber *)notice forGroup:(NSNumber *)group success:(DictionaryBlock)success failure:(FailBlock)failure {
+- (void)notice:(NSNumber *)notice forGroup:(NSNumber *)group success:(NoticeBlock)success failure:(FailBlock)failure {
     NSString *path = [self buildRequestStringForSegments:@[@"groups", group.description, @"notices", [NSString stringWithFormat:@"%@.xml", notice]]];
     NSDictionary *params = [self buildParams];
     [self getPath:path parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
         AirbrakeAPIParser *parser = [AirbrakeAPIParser parser];
-        NSDictionary *result = [parser parseNotices:responseObject];
+        AirbrakeNotice *result = [parser parseNotice:responseObject];
         success(result);
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         failure(error, operation.response.statusCode);

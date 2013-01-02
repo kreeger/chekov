@@ -8,7 +8,7 @@
 
 typedef void (^FailBlock)(NSError *error, NSUInteger responseCode);
 typedef void (^ArrayBlock)(NSArray *results);
-typedef void (^DictionaryBlock)(NSDictionary *result);
+typedef void (^NoticeBlock)(AirbrakeNotice *notice);
 
 @interface AirbrakeAPIClient : AFHTTPClient
 
@@ -27,6 +27,6 @@ typedef void (^DictionaryBlock)(NSDictionary *result);
 
 - (void)noticesForGroup:(NSNumber *)group success:(ArrayBlock)success failure:(FailBlock)failure;
 
-- (void)notice:(NSNumber *)notice forGroup:(NSNumber *)group success:(DictionaryBlock)success failure:(FailBlock)failure;
+- (void)notice:(NSNumber *)notice forGroup:(NSNumber *)group success:(NoticeBlock)success failure:(FailBlock)failure;
 
 @end
