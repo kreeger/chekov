@@ -166,15 +166,15 @@
 			isa = PBXGroup;
 			children = (
 				C3C2ED7F1693B05000C4B14F /* Adapters */,
-				C3C2ED8E1693B05000C4B14F /* BDKAppDelegate.h */,
-				C3C2ED8F1693B05000C4B14F /* BDKAppDelegate.m */,
 				C3C2ED901693B05000C4B14F /* Categories */,
 				C3C2ED9E1693B05000C4B14F /* Cells */,
-				C3C2EDA51693B05000C4B14F /* main.m */,
-				C3C2EDA61693B05000C4B14F /* Prefix.pch */,
 				C3C2EDA71693B05000C4B14F /* Utility */,
 				C3C2EDAC1693B05000C4B14F /* ViewControllers */,
 				C3C2EDBB1693B05000C4B14F /* Views */,
+				C3C2ED8E1693B05000C4B14F /* BDKAppDelegate.h */,
+				C3C2ED8F1693B05000C4B14F /* BDKAppDelegate.m */,
+				C3C2EDA51693B05000C4B14F /* main.m */,
+				C3C2EDA61693B05000C4B14F /* Prefix.pch */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
