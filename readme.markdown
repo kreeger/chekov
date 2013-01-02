@@ -1,3 +1,3 @@
-# Achtung
+# Chekov.
 
-An open-source Airbrake for iOS read client.
+An open-source Airbrake read client for iOS.
